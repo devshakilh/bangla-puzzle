@@ -1,6 +1,8 @@
 import React from 'react';
 import Contact from './Contact';
 import MediaCovarge from './MediaCovarge';
+import MediaConvargeMobile from './MediaCovargeMobile';
+import MediaCovargeMobile from './MediaCovargeMobile';
 
 const Video = () => {
     return (
@@ -91,6 +93,7 @@ const Video = () => {
             </section>
 
             <MediaCovarge />
+            <MediaCovargeMobile />
 
             <Contact />
             <section class="-mb-[6.6rem] z-10 relative">
